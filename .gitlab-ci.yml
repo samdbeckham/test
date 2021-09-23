@@ -1,0 +1,9 @@
+stages:
+- test
+
+test-mr-status:
+  stage: test
+  rules:
+    - when: always
+  script:
+    - echo "test"
